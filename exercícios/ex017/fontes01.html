@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        /*
+        Medidas absolutas: 
+        cm, mm, in, px (RECOMENDADA), pt, pc
+
+        Medidas Relativas:
+        em (RECOMENDADA), ex, rem, vw, vh, %
+
+        16px geralmente = 1em
+        */
+        
+        font-size: 1em;
+        font-weight: normal;
+        font-style: italic;
+        
+        /*
+        lighter, normal (400), bold, bolder
+        */
+    }
+
+    h1 {
+        
+        /*
+        shorthand font (mãozinha)
+
+        A seguinte ordem precisa ser obedecida: 
+
+        font-style, font-weight, font-size, font-family
+
+        obs.: text-decoration: underline
+        */
+        font: italic bolder 3em 'Lucida Sans';
+    }
+
+    h2 {
+        font: bold 2em sans;
+        text-decoration: underline;
+        
+    }
+
+    
+
+    
+    
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate facilis delectus quis blanditiis modi sit odio dignissimos magnam vero, ullam sequi ipsa laudantium laboriosam, qui quam adipisci, quod exercitationem recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi blanditiis magni aperiam molestiae vitae unde harum delectus expedita sed reprehenderit quisquam facere repellat corrupti, temporibus iure porro. Culpa, architecto dicta! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis assumenda ea iusto pariatur omnis debitis quae, eaque consequuntur ipsa impedit sint aut error reiciendis? Quas, nostrum maxime! Qui, dignissimos cumque?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus minima assumenda commodi, quam nostrum voluptatum ducimus nihil tempora voluptatem neque officiis quo praesentium! Odit, voluptatibus fuga eos nulla voluptates inventore!</p>
+
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas assumenda cupiditate similique quod architecto necessitatibus fugit velit, nulla distinctio excepturi consequuntur. Porro error dolor ab voluptates, autem voluptatem doloribus blanditiis?</p>
+</body>
+</html>
