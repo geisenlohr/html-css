@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio rerum blanditiis quasi necessitatibus facere libero id eos praesentium neque omnis? Id, dolorem? Corrupti exercitationem minima ab tempore laudantium, excepturi dolor!</p>
+
+    <ul> <!-- referência do link-->
+        <li><a href="paginas-extras/pagina001.html" target="frame">1ª página</a></li> 
+        <li><a href="paginas-extras/pagina002.html" target="frame">2ª página</a></li>
+        <li><a href="paginas-extras/pagina003.html" target="frame">3ª página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, accusantium sint ut quae fugiat quidem quod vero voluptatibus, repudiandae incidunt aliquam cum repellat perspiciatis et ex expedita accusamus molestias recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo dolor nesciunt expedita deserunt totam, enim velit tenetur temporibus incidunt alias rem neque, repellendus maiores sunt corporis commodi? Ipsa, sunt quaerat.</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1> 
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quibusdam dignissimos quia dolorum magni. Nam cumque distinctio consectetur quasi fugit debitis, voluptate, illum incidunt molestiae rerum nostrum saepe vel veritatis!</p> 
+    <img src='../ex024/imagens/cursoemvideo-logo.png'>"> 
+        <!-- name="" para criar link de navegação / 
+            / srcdoc="" para criar conteúdo estático em iframe -->
+        <p>Infelizmente seu navegador não é compatível com isso</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ullam ab, suscipit excepturi consequuntur laudantium mollitia beatae est necessitatibus corporis consectetur error deserunt? Vero sit quis corrupti dolorem nostrum fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quisquam veritatis nesciunt. Aspernatur, veritatis error saepe vel ratione sed fuga, voluptatum quasi dolore qui nihil nesciunt labore distinctio a cum?</p>
+</body>
+</html>
